@@ -1,15 +1,33 @@
-import header from './components/layout/header';
 import React, { Fragment } from 'react';
-
+import Header from './components/layout/header';
+import MealsSummary from './components/Meals/MealsSummary';
 function App() {
   return (
     <Fragment className="App">
-      <header/>
+      <Header/>
+      <MealsSummary/>
     </Fragment>
   );
 }
 
+
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
