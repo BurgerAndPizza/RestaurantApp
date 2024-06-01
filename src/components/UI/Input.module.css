@@ -1,6 +1,6 @@
 .input {
-    display: flex;
-    align-items: center;
+    display: block;
+    align-items: flex;
     margin-bottom: 0.5rem;
   }
   
